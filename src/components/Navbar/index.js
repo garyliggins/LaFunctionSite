@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to='/'>
-              <img src="LA-Function-Final-Logo.png" alt="LA Function logo" height="100" width="100" style={{filter:"invert(100%)", paddingTop:"25px"}}></img>
+              <img src="LA-Function-Final-Logo.png" alt="LA Function logo" height="75" width="75" style={{filter:"invert(100%)", paddingTop:"25px"}}></img>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -66,7 +66,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Discover
+                  Gallery
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -78,7 +78,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Services
+                  Tickets
                 </NavLinks>
               </NavItem>
               <NavItem>
