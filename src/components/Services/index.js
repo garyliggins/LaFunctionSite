@@ -21,7 +21,7 @@ const Services = () => {
           <ServicesIcon src={Icon1} />
           <ServicesH2>Video1</ServicesH2>
           <ServicesP>
-            video description 1
+            video description 1.2
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
