@@ -34,18 +34,18 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/sign-up'>How it works</FooterLink>
+              {/* <FooterLink to='/sign-up'>How it works</FooterLink>
               <FooterLink to='/'>Testimonials</FooterLink>
               <FooterLink to='/'>Careers</FooterLink>
               <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
+              <FooterLink to='/'>Terms of Service</FooterLink> */}
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to='/'>Contact</FooterLink>
+              {/* <FooterLink to='/'>Contact</FooterLink>
               <FooterLink to='/'>Support</FooterLink>
               <FooterLink to='/'>Destinations</FooterLink>
-              <FooterLink to='/'>Sponsorships</FooterLink>
+              <FooterLink to='/'>Sponsorships</FooterLink> */}
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
@@ -61,16 +61,16 @@ const Footer = () => {
               <FooterLink to='/'>Instagram</FooterLink>
               <FooterLink to='/'>Facebook</FooterLink>
               <FooterLink to='/'>Youtube</FooterLink>
-              <FooterLink to='/'>Twitter</FooterLink>
+              {/* <FooterLink to='/'>Twitter</FooterLink> */}
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              dolla
+              LA Function
             </SocialLogo>
-            <WebsiteRights>dolla © 2020 All rights reserved.</WebsiteRights>
+            <WebsiteRights>Liggins Development © 2022 All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />

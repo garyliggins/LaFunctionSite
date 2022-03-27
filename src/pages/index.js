@@ -24,8 +24,9 @@ function Home() {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-      <Services />
       <InfoSection {...homeObjThree} />
+      <Services />
+      
       <Footer />
     </>
   );

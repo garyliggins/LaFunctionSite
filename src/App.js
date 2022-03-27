@@ -11,6 +11,12 @@ function App() {
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/signin' component={SigninPage} exact />
+
+        <Route path='/lafunctiontix' component={() => {
+          window.location.replace("https://www.universe.com/lafunctiondayparty");
+          return null;
+        }}/>;
+
       </Switch>
     </Router>
   );

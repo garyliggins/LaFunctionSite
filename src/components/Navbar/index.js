@@ -47,6 +47,7 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
+                //about
                   to='about'
                   smooth={true}
                   duration={500}
@@ -59,6 +60,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
+                //gallery
                   to='discover'
                   smooth={true}
                   duration={500}
@@ -71,7 +73,8 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='services'
+                //tickets
+                  to='signup'
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -83,19 +86,20 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='signup'
+                //signup
+                  to='services'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Sign Up
+                  Video Gallery
                 </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+              {/* <NavBtnLink to='/signin'>Sign In</NavBtnLink> */}
             </NavBtn>
           </NavbarContainer>
         </Nav>

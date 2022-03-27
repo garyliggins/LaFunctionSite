@@ -28,7 +28,7 @@ function HeroSection() {
       <HeroContent>
         <HeroH1>LA Function!!</HeroH1>
         <HeroP>
-        Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites. Lorem Ipsum best not make any more threats to your website. It will be met with fire and fury like the world has never seen. Does everybody know that pig named Lorem Ipsum? An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud.
+        LA Function is the place where people who LOVE the LA culture come together under one roof for the most amazing party! Be ready to Function all day to Hip-Hop, R&B, Afro-Beats, Reggaeton & see amazing live performances by today's biggest artists.
         </HeroP>
         <HeroBtnWrapper>
           <Button
@@ -43,7 +43,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            Get tickets {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

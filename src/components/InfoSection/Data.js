@@ -3,11 +3,11 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Premium Bank',
-  headline: 'Unlimited Transactions with zero fees',
+  topLine: 'All about LA Function',
+  headline: 'this section will be a description of la function',
   description:
-    'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
-  buttonLabel: 'Get Started',
+    `oofron dawg dolizzle brizzle check it out, fo shizzle adipiscing ma nizzle. Nullam sapien , sure volutpizzle, suscipizzle quis, nizzle vizzle, its fo rizzle. Pellentesque hizzle shizzlin dizzle. Sizzle erizzle. Pizzle izzle yo mamma dapibus that's the shizzle gangster get down get down.`,
+  buttonLabel: 'Get Tickets',
   imgStart: false,
   img: require('../../images/svg-1.svg'),
   alt: 'Car',
@@ -15,19 +15,19 @@ export const homeObjOne = {
   primary: true,
   darkText: false
 };
-
 export const homeObjTwo = {
+  //gallery
   id: 'discover',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Unlimited Access',
-  headline: 'Login to your account at any time',
+  topLine: 'Photo Gallery',
+  headline: 'Images of past LA Functions',
   description:
-    'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
-  buttonLabel: 'Learn More',
+    `Check out the photo gallery and see what you've been missing and youll understand why LA function tickets always sell out`,
+  buttonLabel: 'Enter gallery',
   imgStart: true,
-  img: require('../../images/svg-2.svg'),
+  img: require('../../images/photographySvg.svg'),
   alt: 'Piggybank',
   dark: false,
   primary: false,
@@ -35,19 +35,26 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
+  //tickets
   id: 'signup',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Join our Team',
-  headline: 'Creating an account is extremely easy',
+  topLine: 'tickets onsale now',
+  headline: 'Get your tickets now before they sell out',
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
+    "the best day party in LA, with tons of celebrities and beautiful party goers",
+  buttonLabel: 'Get Tickets',
   imgStart: false,
-  img: require('../../images/svg-3.svg'),
+  // img: require('../../images/svg-1.svg'),
+  img: "https://lafunction.s3.us-west-1.amazonaws.com/laFunctionPics/JorgeMeza_LAFunction+(36+of+112)JorgeMeza_LAFunction+(36+of+112)5M0A44103636.jpg",
   alt: 'Papers',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
+
 };
+
+
+
+

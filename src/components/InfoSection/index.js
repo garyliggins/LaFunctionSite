@@ -1,5 +1,8 @@
 import React from 'react';
-import { Button } from '../ButtonElements';
+import { Button } from '../ButtonElementTix';
+import {Link} from 'react-router-dom'
+
+
 import {
   InfoContainer,
   InfoWrapper,
@@ -29,9 +32,11 @@ const InfoSection = ({
   primary,
   darkText,
   dark,
-  dark2
+  dark2,
+  
 }) => {
   console.log(primary);
+
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -44,7 +49,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to='home'
+                  to="/lafunctiontix"
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -57,6 +62,9 @@ const InfoSection = ({
                     {buttonLabel}
                   </Button>
                 </BtnWrap>
+
+                {/* <Link to="/lafunctiontix">Tickets</Link> */}
+                
               </TextWrapper>
             </Column1>
             <Column2>
@@ -66,6 +74,7 @@ const InfoSection = ({
             </Column2>
           </InfoRow>
         </InfoWrapper>
+       
       </InfoContainer>
     </>
   );
