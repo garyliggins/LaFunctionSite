@@ -6,7 +6,7 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
-  SidebarRoute,
+  // SidebarRoute,
   SideBtnWrap
 } from './SidebarElements';
 
