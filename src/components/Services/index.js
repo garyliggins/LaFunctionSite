@@ -15,27 +15,27 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id='services'>
-      <ServicesH1>Video gallery</ServicesH1>
+      <ServicesH1>Merch section</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Video1</ServicesH2>
+          <ServicesH2>merch 1</ServicesH2>
           <ServicesP>
-            video description 1.2
+            merch description 1
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>video 2</ServicesH2>
+          <ServicesH2>merch 2</ServicesH2>
           <ServicesP>
-            video description 2
+            merch description 2
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>video 3</ServicesH2>
+          <ServicesH2>merch 3</ServicesH2>
           <ServicesP>
-            video description 3
+            merch description 3
           </ServicesP>
         </ServicesCard> 
       </ServicesWrapper>
