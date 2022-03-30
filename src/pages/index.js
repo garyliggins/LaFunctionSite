@@ -4,11 +4,14 @@ import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
+
 import {
   homeObjOne,
-  homeObjTwo,
-  homeObjThree
+  // homeObjTwo,
+  homeObjThree,
 } from '../components/InfoSection/Data';
+import {homeObjGallery} from '../components/InfoSection/DataGallery'
+// import {indexGallery} from '../components/InfoSection/indexGallery'
 import Services from '../components/Services';
 
 function Home() {
@@ -23,8 +26,10 @@ function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      {/* <InfoSection {...homeObjTwo} /> */}
       <InfoSection {...homeObjThree} />
+      <InfoSection {...homeObjGallery} />
+      
       <Services />
       
       <Footer />

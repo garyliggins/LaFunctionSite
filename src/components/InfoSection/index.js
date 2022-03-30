@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElementTix';
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 import {
@@ -49,7 +49,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                  to="/lafunctiontix"
+                  to="lafunctiontix"
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -63,8 +63,9 @@ const InfoSection = ({
                   </Button>
                 </BtnWrap>
 
-                {/* <Link to="/lafunctiontix">Tickets</Link> */}
-                
+               
+                <Link to="/lafunctiongallery">enter</Link> 
+              {/* link tag is only here to check it route works */}
               </TextWrapper>
             </Column1>
             <Column2>

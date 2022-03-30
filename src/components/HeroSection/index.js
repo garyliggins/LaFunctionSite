@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
-import Video from '../../videos/LA Function 07.06.19.m4v';
+import Video from '../../videos/LA Function 20212-To Email.MOV';
 import {
   HeroContainer,
   HeroBg,
@@ -26,9 +26,9 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video.mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>LA Function!!</HeroH1>
+        <HeroH1>LA Function!</HeroH1>
         <HeroP>
-        LA Function is the place where people who LOVE the LA culture come together under one roof for the most amazing party! Be ready to Function all day to Hip-Hop, R&B, Afro-Beats, Reggaeton & see amazing live performances by today's biggest artists.
+        New Season Starts May 14th! <br/> Tickets on sale now!
         </HeroP>
         <HeroBtnWrapper>
           <Button
