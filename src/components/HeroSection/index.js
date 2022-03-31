@@ -26,7 +26,7 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video.mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>LA Function!</HeroH1>
+        <HeroH1><img src="LA-Function-Final-Logo.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1>
         <HeroP>
         New Season Starts May 14th! <br/> Tickets on sale now!
         </HeroP>
