@@ -94,7 +94,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Video Gallery
+                  Merch
                 </NavLinks>
               </NavItem>
             </NavMenu>

@@ -1,7 +1,10 @@
 import React from 'react';
-import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-3.svg';
-import Icon3 from '../../images/svg-5.svg';
+import Icon1 from '../../images/clippersLaFunc.png';
+import Icon2 from '../../images/dodgersLaFunc.png';
+import Icon3 from '../../images/kingsLaFunc.png';
+import Icon4 from '../../images/lakersLaFunc.png';
+import Icon5 from '../../images/ramsLaFunc.png';
+import Icon6 from '../../images/socksLafunc.png';
 import {
   ServicesContainer,
   ServicesH1,
@@ -36,6 +39,27 @@ const Services = () => {
           <ServicesH2>merch 3</ServicesH2>
           <ServicesP>
             merch description 3
+          </ServicesP>
+        </ServicesCard> 
+        <ServicesCard>
+          <ServicesIcon src={Icon4} />
+          <ServicesH2>merch 4</ServicesH2>
+          <ServicesP>
+            merch description 4
+          </ServicesP>
+        </ServicesCard> 
+        <ServicesCard>
+          <ServicesIcon src={Icon5} />
+          <ServicesH2>merch 5</ServicesH2>
+          <ServicesP>
+            merch description 5
+          </ServicesP>
+        </ServicesCard> 
+        <ServicesCard>
+          <ServicesIcon src={Icon6} />
+          <ServicesH2>merch 6</ServicesH2>
+          <ServicesP>
+            merch description 6
           </ServicesP>
         </ServicesCard> 
       </ServicesWrapper>

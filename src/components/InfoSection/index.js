@@ -64,7 +64,7 @@ const InfoSection = ({
                 </BtnWrap>
 
                
-                <Link to="/lafunctiongallery">enter</Link> 
+                {/* <Link to="/lafunctiongallery">enter</Link>  */}
               {/* link tag is only here to check it route works */}
               </TextWrapper>
             </Column1>

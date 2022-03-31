@@ -7,11 +7,10 @@ import InfoSection from '../components/InfoSection';
 
 import {
   homeObjOne,
-  // homeObjTwo,
+  homeObjTwo,
   homeObjThree,
 } from '../components/InfoSection/Data';
-import {homeObjGallery} from '../components/InfoSection/DataGallery'
-// import {indexGallery} from '../components/InfoSection/indexGallery'
+
 import Services from '../components/Services';
 
 function Home() {
@@ -26,10 +25,11 @@ function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      {/* <InfoSection {...homeObjTwo} /> */}
-      <InfoSection {...homeObjThree} />
+      <InfoSection {...homeObjTwo} />
       <Services />
-      <InfoSection {...homeObjGallery} />
+      <InfoSection {...homeObjThree} />
+      
+      
       
       
       
