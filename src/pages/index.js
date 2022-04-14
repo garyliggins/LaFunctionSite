@@ -9,7 +9,7 @@ import GalleryPage from '../components/GalleryPage'
 
 import {
   homeObjOne,
-  homeObjTwo,
+  // homeObjTwo,
   homeObjThree,
   
 } from '../components/InfoSection/Data';

@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 import Button from "../components/ButtonExternal";
 import theGameImage from "../images/theGameLaFunc.png";
 import {
