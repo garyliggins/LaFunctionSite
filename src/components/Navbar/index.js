@@ -73,19 +73,6 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                //tickets
-                  to='signup'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Tickets
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
                 //signup
                   to='services'
                   smooth={true}
@@ -97,6 +84,20 @@ const Navbar = ({ toggle }) => {
                   Merch
                 </NavLinks>
               </NavItem>
+              <NavItem>
+                <NavLinks
+                //tickets
+                  to='signup'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-80}
+                >
+                  Tickets
+                </NavLinks>
+              </NavItem>
+             
             </NavMenu>
             <NavBtn>
               {/* <NavBtnLink to='/signin'>Sign In</NavBtnLink> */}

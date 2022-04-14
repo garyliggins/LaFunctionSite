@@ -12,10 +12,10 @@ function App() {
         <Route path='/' component={Home} exact />
         <Route path='/signin' component={SigninPage} exact />
 
-        {/* <Route path='/lafunctiongallery' component={() => {
+        <Route path='/lafunctiongallery' component={() => {
           window.location.replace("https://photos.app.goo.gl/echqmTsn4Gqtpfxa7");
           return null;
-        }}/>; */}
+        }}/>;
 
         <Route path='/lafunctiontix' component={() => {
           window.location.replace("https://www.universe.com/lafunctiondayparty");

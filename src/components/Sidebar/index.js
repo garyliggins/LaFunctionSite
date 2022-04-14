@@ -41,7 +41,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Gallery
           </SidebarLink>
           <SidebarLink
-            to='services'
+            to='signup'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -52,7 +52,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Tickets
           </SidebarLink>
           <SidebarLink
-            to='signup'
+            to='services'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -60,8 +60,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Video Gallery
+            Merch
           </SidebarLink>
+          
         </SidebarMenu>
         <SideBtnWrap>
           {/* <SidebarRoute to='/signin'>Sign In</SidebarRoute> */}

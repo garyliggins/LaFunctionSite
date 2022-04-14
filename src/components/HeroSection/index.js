@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
-import Video from '../../videos/LA Function 20212-To Email.MOV';
+import Video from '../../videos/LA Function 07.06.19.m4v';
 import {
   HeroContainer,
   HeroBg,

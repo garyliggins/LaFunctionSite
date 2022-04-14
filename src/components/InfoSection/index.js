@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button } from '../ButtonElementTix';
-// import {Link} from 'react-router-dom'
+import { Button } from '../ButtonExternal';
+
+import {Link} from 'react-router-dom'
 
 
 import {
