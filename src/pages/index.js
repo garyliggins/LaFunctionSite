@@ -4,7 +4,8 @@ import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
-import GalleryPage from '../components/GalleryPage'
+import GalleryPage from '../components/GalleryPage';
+
 
 
 import {
