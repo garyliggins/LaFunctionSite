@@ -51,7 +51,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Tickets
           </SidebarLink>
-          <SidebarLink
+          {/* <SidebarLink
             to='services'
             onClick={toggle}
             smooth={true}
@@ -61,7 +61,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
           >
             Merch
-          </SidebarLink>
+          </SidebarLink> */}
           
         </SidebarMenu>
         <SideBtnWrap>

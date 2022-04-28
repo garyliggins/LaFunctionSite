@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: 'About LA Function',
   headline: 'LA Function is a Music, Art & Food Festival',
   description:
-    `we celebrate the Los Angeles culture by highlighting the cities best Djs, musicians, chefs, creatives & artists. We welcome everyone who has LOVE for the LA culture to come together for positive vibes at the most amazing event!
+    `Celebrating the Los Angeles culture by highlighting the cities best Djs, musicians, chefs, creatives & artists. We welcome everyone who has LOVE for the LA culture to come together for positive vibes at the most amazing event!
     `,
   buttonLabel: 'Get Tickets',
   imgStart: false,
@@ -17,15 +17,15 @@ export const homeObjOne = {
   darkText: false
 };
 export const homeObjTwo = {
-  //gallery
+  //gallery this is no longer the gallery component go to gallerypage.js
   id: 'discover',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
   topLine: 'Photo Gallery',
-  headline: 'Images of past LA Functions',
+  headline: 'LA Function Photo Gallery',
   description:
-    `Be ready to FUNCTION all day to Hip-Hop, RnB, Afro-Beats, Reggaeton, Nostalgic & Deep House Past special guests & performances include:
+    `Past special guests & performances include:
     Ty Dolla $ign, Hit-Boy, Blxst, Dom Kennedy, YG, Eric Bellinger, Jay Rock, OT Genasis, DJ Mustard, Buddy, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt, & many more!`,
   buttonLabel: 'Enter gallery',
   imgStart: true,
@@ -39,21 +39,21 @@ export const homeObjTwo = {
 export const homeObjThree = {
   //tickets
   id: 'signup',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'tickets onsale now',
-  headline: 'Get your tickets now before they sell out',
+  headline: 'Tickets to LA Function sell out every year, get yours now!',
   description:
-    "the best day party in LA, with tons of celebrities and beautiful party goers",
+    "Be ready to FUNCTION all day to Hip-Hop, RnB, Afro-Beats, Reggaeton, Nostalgic & Deep House",
   buttonLabel: 'Get Tickets',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
   img: require("../../images/la1.jpg"),
   alt: 'Papers',
-  dark: false,
-  primary: false,
-  darkText: true,
+  dark: true,
+  primary: true,
+  darkText: false,
 
 };
 

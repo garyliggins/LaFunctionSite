@@ -72,7 +72,7 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
+                {/* <NavLinks
                 //signup
                   to='services'
                   smooth={true}
@@ -82,7 +82,7 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   Merch
-                </NavLinks>
+                </NavLinks> */}
               </NavItem>
               <NavItem>
                 <NavLinks

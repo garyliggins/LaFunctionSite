@@ -72,30 +72,30 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>Liggins Development © 2022 All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='https://m.facebook.com/Supreme-Team-1303525766409432/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='https://www.instagram.com/la.function/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink
+              {/* <SocialIconLink
                 href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
                 target='_blank'
                 aria-label='Youtube'
                 rel='noopener noreferrer'
               >
                 <FaYoutube />
-              </SocialIconLink>
+              </SocialIconLink> */}
               <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
-                href='//www.twitter.com/briandesignz'
+                href='https://twitter.com/supremeteam_la'
               >
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              {/* <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
-              </SocialIconLink>
+              </SocialIconLink> */}
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>

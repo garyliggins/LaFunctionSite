@@ -4,21 +4,25 @@ export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
+  @media screen and (max-width: 1000px) {
+    padding: 75px 0;
   }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 950px;
+  height: 800px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  padding-right: 20px;
   justify-content: center;
+
+  @media screen and (max-width: 1000px) {
+    height: 750px;
+  }
 `;
 
 export const InfoRow = styled.div`
@@ -29,9 +33,10 @@ export const InfoRow = styled.div`
     imgStart ? "'col2 col1'" : "'col1 col2'"};
   /* Must use '\' css class \'' */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+      
   }
 `;
 
@@ -51,6 +56,7 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+ 
 `;
 
 export const TopLine = styled.div`
@@ -91,6 +97,7 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 500px;
   height: 100%;
+
 `;
 
 export const Img = styled.img`

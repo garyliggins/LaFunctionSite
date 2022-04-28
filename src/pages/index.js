@@ -16,7 +16,7 @@ import {
 } from '../components/InfoSection/Data';
 
 
-import Services from '../components/Services';
+// import Services from '../components/Services';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ function Home() {
       <InfoSection {...homeObjOne} />
       {/* <InfoSection {...homeObjTwo} /> */}
       <GalleryPage/>
-      <Services />
+      {/* <Services /> */}
       <InfoSection {...homeObjThree} />
      
       <Footer />

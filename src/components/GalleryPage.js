@@ -43,10 +43,9 @@ const GallerySection = ({
           <Column1>
             <TextWrapper>
                 <TopLine>Photo Gallery</TopLine>
-                <Heading darkText={{darkText}}>Images of past LA Functions</Heading>
+                <Heading darkText={{darkText}}>LA Function Gallery</Heading>
                 <Subtitle darkText={{darkText}}>
-                  Be ready to FUNCTION all day to Hip-Hop, RnB, Afro-Beats,
-                  Reggaeton, Nostalgic & Deep House Past special guests &
+                  Past special guests &
                   performances include: Ty Dolla $ign, Hit-Boy, Blxst, Dom
                   Kennedy, YG, Eric Bellinger, Jay Rock, OT Genasis, DJ Mustard,
                   Buddy, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu,
