@@ -4,12 +4,13 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
-  height: 80px;
-  margin-top: -80px;
+  height: 120px;
+  margin-top: -120px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+  font-weight: bold;
   position: sticky;
   top: 0;
   z-index: 10;
