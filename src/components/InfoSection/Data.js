@@ -49,7 +49,7 @@ export const homeObjThree = {
   buttonLabel: 'Get Tickets',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: require("../../images/laFunctionCloud.JPEG"),
+  img: require("../../images/22 LA Fun Final 6:18.png"),
   alt: 'Papers',
   dark: true,
   primary: true,
