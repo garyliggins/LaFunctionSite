@@ -28,7 +28,7 @@ function HeroSection() {
       <HeroContent>
         <HeroH1><img src="LA-Function-Final-Logo.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1>
         <HeroP>
-        Next date: July 23rd <br/> Tickets on sale now!
+        Summer Finale August 20th! <br/> Tickets on sale now!
         </HeroP>
         <HeroBtnWrapper>
           <Button

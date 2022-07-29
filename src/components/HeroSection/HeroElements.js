@@ -81,10 +81,11 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
   margin-top: 24px;
-  color: #fff;
+  color: yellow;
   font-size: 24px;
   text-align: center;
   max-width: 600px;
+  font-weight: bold;
 
   @media screen and (max-width: 768px) {
     font-size: 24px;

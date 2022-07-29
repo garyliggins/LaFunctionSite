@@ -21,7 +21,7 @@ function App() {
         }}/>;
 
         <Route path='/lafunctiontix' component={() => {
-          window.location.replace("https://www.universe.com/lafunctionbay2la");
+          window.location.replace("https://www.universe.com/lafunctionfinale");
           return null;
         }}/>;
 

@@ -26,7 +26,7 @@ export const homeObjTwo = {
   headline: 'LA Function Photo Gallery',
   description:
     `Past special guests & performances include:
-    Ty Dolla $ign, Hit-Boy, Blxst, Dom Kennedy, YG, Eric Bellinger, Jay Rock, OT Genasis, DJ Mustard, Buddy, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt, & many more!`,
+    Ty Dolla $ign, Hit-Boy, Blxst, Dom Kennedy, YG, Eric Bellinger, Jay Rock, Kamaiyah, OT Genasis, DJ Mustard, Buddy, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt, & many more!`,
   buttonLabel: 'Enter gallery',
   imgStart: true,
   img: require('../../images/theGameLaFunc.png'),
@@ -49,7 +49,7 @@ export const homeObjThree = {
   buttonLabel: 'Get Tickets',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: require("../../images/LA Fun -Bay to LA copy.jpg"),
+  img: require("../../images/LA-FUNCTION-Aug-20th.JPG"),
   alt: 'Papers',
   dark: true,
   primary: true,
