@@ -23,7 +23,7 @@ function HeroSection() {
   return (
     <HeroContainer id='home'>
       <HeroBg>
-        <VideoBg playsInline autoPlay loop muted src={Video} type='video.mp4' />
+        <VideoBg dangerouslySetInnerHTML={{__html:Video}} playsInline autoPlay muted loop src={Video} type='video.mp4' />
       </HeroBg>
       <HeroContent>
         <HeroH1><img src="LA-Function-Final-Logo.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1>
