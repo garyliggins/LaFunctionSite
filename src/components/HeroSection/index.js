@@ -20,6 +20,8 @@ function HeroSection() {
   const onHover = () => {
     setHover(!hover);
   };
+ 
+    
   return (
     <HeroContainer id='home'>
       <HeroBg>
@@ -28,11 +30,12 @@ function HeroSection() {
       <HeroContent>
         <HeroH1><img src="LA-Function-Final-Logo.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1>
         <HeroP>
-        Summer finale & Kalan FRFR album release party August 20th! <br/> Tickets on sale now!
+        Get ready for the 2023 dates coming soon! <br/> 
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to='signup'
+           
+            // to='signup' //undo this to use button again
             smooth={true}
             duration={500}
             spy={true}
@@ -41,9 +44,9 @@ function HeroSection() {
             primary='true'
             dark='true'
             onMouseEnter={onHover}
-            onMouseLeave={onHover}
+            onMouseLeave={onHover} 
           >
-            Get tickets {hover ? <ArrowForward /> : <ArrowRight />}
+            2023 Tickets coming soon {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     `Celebrating the Los Angeles culture by highlighting the cities best Djs, musicians, chefs, creatives & artists. We welcome everyone who has LOVE for the LA culture to come together for positive vibes at the most amazing event!
     `,
-  buttonLabel: 'Get Tickets',
+  buttonLabel: '2023 Tickets coming soon',
   imgStart: false,
   img: require('../../images/blxstLaFunction.png'),
   alt: 'Car',
@@ -42,15 +42,15 @@ export const homeObjThree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'tickets onsale now',
+  topLine: '2023 tickets coming soon',
   headline: 'Tickets to LA Function sell out every year, get yours now!',
   description:
     "Be ready to FUNCTION all day to Hip-Hop, RnB, Afro-Beats, Reggaeton, Nostalgic & Deep House",
-  buttonLabel: 'Get Tickets',
+  buttonLabel: 'Coming soon',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: require("../../images/image0.JPEG"),
-  alt: 'Papers',
+  img: require("../../images/lafunc51410.jpg"),
+  alt: 'la function image',
   dark: true,
   primary: true,
   darkText: false,

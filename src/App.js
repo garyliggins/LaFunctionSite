@@ -20,10 +20,10 @@ function App() {
           return null;
         }}/>;
 
-        <Route path='/lafunctiontix' component={() => {
+        {/* <Route path='/lafunctiontix' component={() => {
           window.location.replace("https://www.universe.com/lafunctionfinale");
           return null;
-        }}/>;
+        }}/>; */}
 
         
 
