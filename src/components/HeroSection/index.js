@@ -46,7 +46,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover} 
           >
-            Function Friendsgiving tickets {hover ? <ArrowForward /> : <ArrowRight />}
+            Function Friendsgiving Tickets {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
