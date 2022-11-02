@@ -20,10 +20,10 @@ function App() {
           return null;
         }}/>;
 
-        {/* <Route path='/lafunctiontix' component={() => {
-          window.location.replace("https://www.universe.com/lafunctionfinale");
+        <Route path='/lafunctiontix' component={() => {
+          window.location.replace("https://www.universe.com/events/friends-giving-function-tickets-613P74");
           return null;
-        }}/>; */}
+        }}/>;
 
         
 

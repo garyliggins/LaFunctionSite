@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     `Celebrating the Los Angeles culture by highlighting the cities best Djs, musicians, chefs, creatives & artists. We welcome everyone who has LOVE for the LA culture to come together for positive vibes at the most amazing event!
     `,
-  buttonLabel: '2023 Tickets coming soon',
+  buttonLabel: 'Tickets to Function Friendsgiving',
   imgStart: false,
   img: require('../../images/blxstLaFunction.png'),
   alt: 'Car',
@@ -42,14 +42,14 @@ export const homeObjThree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '2023 tickets coming soon',
+  topLine: 'Function Friengsgiving November 26th',
   headline: 'Tickets to LA Function sell out every year, get yours now!',
   description:
     "Be ready to FUNCTION all day to Hip-Hop, RnB, Afro-Beats, Reggaeton, Nostalgic & Deep House",
-  buttonLabel: 'Coming soon',
+  buttonLabel: 'Function Friendsgiving Tickets',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: require("../../images/lafunc51410.jpg"),
+  img: require("../../images/LA-Friends-Giving-flyer.jpg"),
   alt: 'la function image',
   dark: true,
   primary: true,
