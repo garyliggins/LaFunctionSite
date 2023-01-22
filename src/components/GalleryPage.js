@@ -54,7 +54,7 @@ const GallerySection = ({
                 </Subtitle>
                 <BtnWrap>
                   <Button to="lafunctiongallery"
-                  >Enter Gallery</Button>
+                  >ENTER GALLERY</Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

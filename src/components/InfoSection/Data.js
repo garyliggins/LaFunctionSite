@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     `Celebrating the Los Angeles culture by highlighting the cities best Djs, musicians, chefs, creatives & artists. We welcome everyone who has LOVE for the LA culture to come together for positive vibes at the most amazing event!
     `,
-  buttonLabel: 'Friends Giving Function Tickets',
+  buttonLabel: 'FUNCTION TICKETS',
   imgStart: false,
   img: require('../../images/blxstLaFunction.png'),
   alt: 'Car',
@@ -27,7 +27,7 @@ export const homeObjTwo = {
   description:
     `Past special guests & performances include:
     Ty Dolla $ign, Hit-Boy, Blxst, Dom Kennedy, YG, Eric Bellinger, Jay Rock, Kamaiyah, OT Genasis, DJ Mustard, Buddy, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt, & many more!`,
-  buttonLabel: 'Enter gallery',
+  buttonLabel: 'ENTER GALLERY',
   imgStart: true,
   img: require('../../images/theGameLaFunc.png'),
   alt: 'Piggybank',
@@ -42,14 +42,14 @@ export const homeObjThree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Friends Giving Function November 26th',
+  topLine: 'LA Function 2023 tickets available now',
   headline: 'Tickets to LA Function sell out every year, get yours now!',
   description:
     "Be ready to FUNCTION all day to Hip-Hop, RnB, Afro-Beats, Reggaeton, Nostalgic & Deep House",
-  buttonLabel: 'Friends Giving Function Tickets',
+  buttonLabel: 'FUNCTION TICKETS',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: require("../../images/LA-Friends-Giving-flyer.jpg"),
+  img: require("../../images/lafunction2023.JPEG"),
   alt: 'la function image',
   dark: true,
   primary: true,
