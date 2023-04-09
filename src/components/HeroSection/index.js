@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
-import Video from '../../videos/lafuncvid514.mov';
+import Video from '../../videos/LA_Function_Promo_2023_2.MOV';
 import {
   HeroContainer,
   HeroBg,
@@ -28,7 +28,7 @@ function HeroSection() {
         <VideoBg playsInline autoPlay muted loop src={Video} type='video.mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1><img src="LA-Function-Final-Logo.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1>
+        <HeroH1><img src="LA_Function_Final corrected.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1>
         <HeroP>
         LA FUNCTION 2023 TICKETS AVAILABLE NOW! <br/> 
         </HeroP>
