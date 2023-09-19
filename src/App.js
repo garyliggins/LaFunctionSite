@@ -20,10 +20,10 @@ function App() {
           return null;
         }}/>;
 
-        <Route path='/lafunctiontix' component={() => {
+        {/* <Route path='/lafunctiontix' component={() => {
           window.location.replace("https://www.universe.com/events/la-function-festival-tickets-05XB48?unii-trigger-open=05XB48");
           return null;
-        }}/>;
+        }}/>; */}
 
         
 
