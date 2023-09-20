@@ -60,7 +60,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: #01bf71;
+  color: orange; //change back after halloween to lime green
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
