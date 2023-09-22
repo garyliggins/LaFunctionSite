@@ -42,11 +42,11 @@ export const homeObjThree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Halloween Function tickets available 9/22',
+  topLine: 'Halloween Function Tickets Available Now',
   headline: 'Tickets to Halloween Function sell out every year, get yours now!',
   description:
     "Be ready to FUNCTION all night to Hip-Hop, RnB, Afro-Beats, Reggaeton, Nostalgic & Deep House",
-  buttonLabel: 'FUNCTION TICKETS AVAILABLE 9/22',
+  buttonLabel: 'HALLOWEEN FUNCTION TICKETS AVAILABLE',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
   img: require("../../images/hwimage.jpg"),

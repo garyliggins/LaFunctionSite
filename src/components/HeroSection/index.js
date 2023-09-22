@@ -46,7 +46,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover} 
           >
-           FUNCTION TICKETS AVAILABLE 9/22{hover ? <ArrowForward /> : <ArrowRight />}
+           FUNCTION TICKETS AVAILABLE NOW!{hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
