@@ -7,7 +7,7 @@ import {
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroH1,
+  // HeroH1,
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
