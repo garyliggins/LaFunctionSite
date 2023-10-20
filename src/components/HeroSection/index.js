@@ -28,7 +28,7 @@ function HeroSection() {
         <VideoBg playsInline autoPlay muted loop src={Video} type='video.mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1><img src="LA_Function_Final corrected.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1>
+        {/* <HeroH1><img src="LA_Function_Final corrected.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1> */}
         <HeroP>
         Halloween Function Saturday October 28th! <br/> 
         </HeroP>
