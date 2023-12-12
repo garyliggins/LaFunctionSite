@@ -49,7 +49,7 @@ export const homeObjThree = {
   buttonLabel: 'TICKETS COMING SOON',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: require("../../images/hwimage.jpg"),
+  img: require("../../images/IMG_1023.jpg"),
   alt: 'la function image',
   dark: true,
   primary: true,
