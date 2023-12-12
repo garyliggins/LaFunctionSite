@@ -20,10 +20,10 @@ function App() {
           return null;
         }}/>;
 
-        <Route path='/lafunctiontix' component={() => {
+        {/* <Route path='/lafunctiontix' component={() => {
           window.location.replace("https://www.universe.com/events/la-function-halloween-tickets-51049C");
           return null;
-        }}/>;
+        }}/>; */}
 
         
 

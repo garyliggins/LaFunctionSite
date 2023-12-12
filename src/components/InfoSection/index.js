@@ -50,7 +50,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                  to="lafunctiontix" //undo this for ticket link to work
+                  // to="lafunctiontix" //undo this for ticket link to work
                     smooth={true}
                     duration={500}
                     spy={true}

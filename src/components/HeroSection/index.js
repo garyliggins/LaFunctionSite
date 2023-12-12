@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
-import Video from '../../videos/lafunction10.31.21v2.mov';
+import Video from '../../videos/LA_Function_Promo_2023_clean.MOV';
 import {
   HeroContainer,
   HeroBg,
@@ -30,12 +30,12 @@ function HeroSection() {
       <HeroContent>
         {/* <HeroH1><img src="LA_Function_Final corrected.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1> */}
         <HeroP>
-        Halloween Function Saturday October 28th! <br/> 
+        2024 DATES COMING SOON! <br/> 
         </HeroP>
         <HeroBtnWrapper>
           <Button
            
-            to='signup' //undo this to use button again
+            // to='signup' //undo this to use button again
             smooth={true}
             duration={500}
             spy={true}
@@ -46,7 +46,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover} 
           >
-           FUNCTION TICKETS AVAILABLE NOW!{hover ? <ArrowForward /> : <ArrowRight />}
+           FUNCTION TICKETS COMING SOON!{hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
