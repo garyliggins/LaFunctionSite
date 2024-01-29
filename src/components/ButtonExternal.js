@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const Button = styled(Link)`
   
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? 'orange' : 'orange')}; //change this back to lime green color
+  background: ${({ primary }) => (primary ? '#c6cb49' : '#c6cb49')}; //change this back to lime green color
   white-space: nowrap;
   padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
   color: ${({ dark }) => (dark ? '#010606' : 'black')};

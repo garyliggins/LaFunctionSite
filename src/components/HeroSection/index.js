@@ -30,7 +30,7 @@ function HeroSection() {
       <HeroContent>
         {/* <HeroH1><img src="LA_Function_Final corrected.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1> */}
         <HeroP>
-        2024 DATES COMING SOON! <br/> 
+        LA FUNCTION 2024 TICKETS ON SALE NOW! <br/> 
         </HeroP>
         <HeroBtnWrapper>
           <Button
@@ -46,7 +46,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover} 
           >
-           FUNCTION TICKETS COMING SOON!{hover ? <ArrowForward /> : <ArrowRight />}
+           FUNCTION TICKETS!{hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

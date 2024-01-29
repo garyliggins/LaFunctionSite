@@ -20,10 +20,10 @@ function App() {
           return null;
         }}/>;
 
-        {/* <Route path='/lafunctiontix' component={() => {
-          window.location.replace("https://www.universe.com/events/la-function-halloween-tickets-51049C");
+        <Route path='/lafunctiontix' component={() => {
+          window.location.replace("https://www.eventbrite.com/e/la-function-tickets-803422236537?aff=oddtdtcreator");
           return null;
-        }}/>; */}
+        }}/>;
 
         
 
