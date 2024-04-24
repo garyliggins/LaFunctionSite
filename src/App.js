@@ -21,7 +21,7 @@ function App() {
         }}/>;
 
         <Route path='/lafunctiontix' component={() => {
-          window.location.replace("https://www.eventbrite.com/e/la-function-tickets-803422236537?aff=oddtdtcreator");
+          window.location.replace("https://a7a2cb-6.myshopify.com/");
           return null;
         }}/>;
 

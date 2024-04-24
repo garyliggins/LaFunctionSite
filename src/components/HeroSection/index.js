@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
-import Video from '../../videos/LA_Function_Promo_2023_clean.MOV';
+import Video from '../../videos/LA Function 2024 promo IG 2.MOV';
 import {
   HeroContainer,
   HeroBg,
@@ -35,7 +35,7 @@ function HeroSection() {
         <HeroBtnWrapper>
           <Button
            
-            // to='signup' //undo this to use button again
+             to='signup'
             smooth={true}
             duration={500}
             spy={true}
