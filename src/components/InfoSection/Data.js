@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: 'About LA Function',
   headline: 'LA Function is a Music, Art & Food Festival',
   description:
-    `Celebrating the Los Angeles culture by highlighting the cities best Djs, musicians, chefs, creatives & artists. We welcome everyone who has LOVE for the LA culture to come together for positive vibes at the most amazing event!
+    `Celebrating Los Angeles culture by highlighting the city's best Djs, musicians, chefs, creatives & artists. We welcome everyone who has LOVE for the LA culture to come together for positive vibes at the most amazing event!
     `,
   buttonLabel: 'FUNCTION TICKETS',
   imgStart: false,
@@ -26,7 +26,7 @@ export const homeObjTwo = {
   headline: 'LA Function Photo Gallery',
   description:
     `Past special guests & performances include:
-    Ty Dolla $ign, Hit-Boy, Blxst, Dom Kennedy, YG, Eric Bellinger, Jay Rock, Kamaiyah, OT Genasis, DJ Mustard, Buddy, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt, & many more!`,
+    Ty Dolla $ign, Hit-Boy, Blxst, Dom Kennedy, YG, Eric Bellinger, Will.i.am, Jay Rock, Kamaiyah, OT Genasis, DJ Mustard, Buddy, Christina Milian, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt & Daz, & many more!`,
   buttonLabel: 'ENTER GALLERY',
   imgStart: true,
   img: require('../../images/theGameLaFunc.png'),
