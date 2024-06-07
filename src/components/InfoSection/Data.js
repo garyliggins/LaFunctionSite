@@ -4,9 +4,12 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'About LA Function',
-  headline: 'LA Function is a Music, Art & Food Festival',
+  headline: 'LA Function a Music, Art, Dance & Food Festival',
   description:
-    `Celebrating Los Angeles culture by highlighting the city's best Djs, musicians, chefs, creatives & artists. We welcome everyone who has LOVE for the LA culture to come together for positive vibes at the most amazing event!
+    `LA Function emerges as a multi-stage festival designed to create a captivating musical journey. Featuring a dynamic lineup of DJs creating an unforgettable sonic experience.
+    LA Function food festival grounds is crafted to immerse guests on a flavorful adventure through the heart of Los Angeles food scene.
+    Our goal with LA Function is to create a sanctuary of love, fostering an environment where every participant feel valued and celebrated for who they are.
+    Come experience LA’s vibrant culture at LA FUNCTION!
     `,
   buttonLabel: 'FUNCTION TICKETS',
   imgStart: false,

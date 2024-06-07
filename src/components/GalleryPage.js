@@ -47,7 +47,7 @@ const GallerySection = ({
                 <Subtitle darkText={{darkText}}>
                   Past special guests &
                   Past special guests & performances include:
-    Ty Dolla $ign, Hit-Boy, Blxst, Dom Kennedy, YG, Eric Bellinger, Will.i.am, Jay Rock, Kamaiyah, OT Genasis, DJ Mustard, Buddy, Christina Milian, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Blue Bucks Clan, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt & Daz, & many more!
+                  Ty Dolla $ign, Hit-Boy, DJ Quik, Blxst, Dom Kennedy, YG, Eric Bellinger, Will.i.am, Jay Rock, Kamaiyah, OT Genasis, DJ Mustard, Buddy, Christina Milian, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Blue Bucks Clan, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt & Daz, & many more!
                 </Subtitle>
                 <BtnWrap>
                   <Button to="lafunctiongallery"

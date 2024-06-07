@@ -53,6 +53,18 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+
+  @media (min-width: 1024px) {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 50%; /* Slightly wider */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the video */
+  }
 `;
 
 export const HeroContent = styled.div`
