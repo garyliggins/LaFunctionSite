@@ -21,7 +21,7 @@ export const InfoWrapper = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 1000px) {
-    height: 750px;
+    height:810px;
   }
 `;
 
@@ -41,7 +41,7 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-  margin-bottom: 15px;
+  margin-bottom: px;
   padding: 0 15px;
   grid-area: col1;
 `;
