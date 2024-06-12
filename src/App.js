@@ -25,6 +25,10 @@ function App() {
           return null;
         }}/>;
 
+<Route path='/BETFanFest' component={() => {
+          window.location.replace("https://www.bet.com/topic/betexperience");
+          return null;
+        }}/>;
         
 
       </Switch>
