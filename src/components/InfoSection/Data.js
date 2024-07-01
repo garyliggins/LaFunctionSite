@@ -59,23 +59,23 @@ export const homeObjThree = {
   darkText: false,
 };
 
-export const homeObjFour = {
-  //gallery this is no longer the gallery component go to gallerypage.js
-  id: 'Bet',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'June 28 & 29',
-  headline: 'BETx FAN FEST IS BACK!',
-  description: //this text actually comes from photo gallery page
-    `BETx FAN FEST IS BACK for an LA takeover with Doechii, Flo Milli, Latto, Coco Jones, Shaboozey, Marsha Ambrosius, Saucy Santana, and more performing live! Lace up for the skate party hosted by Mustard & 10 Summers, plus panels, fashion, food, BET+ screenings, and the celebrity basketball game with captains Wallo & Gillie! BET Experience presented by Walmart. Fan Fest is FREE! Register now at BETExperience.com`,
-  buttonLabel: 'Register Now!',
-  imgStart: true,
-  img: require('../../images/BETX_LOGO_ONYX.png'),
-  alt: 'Piggybank',
-  dark: false,
-  primary: false,
-  darkText: true
-};
+// export const homeObjFour = {
+//   //gallery this is no longer the gallery component go to gallerypage.js
+//   id: 'Bet',
+//   lightBg: true,
+//   lightText: false,
+//   lightTextDesc: false,
+//   topLine: 'June 28 & 29',
+//   headline: 'BETx FAN FEST IS BACK!',
+//   description: //this text actually comes from photo gallery page
+//     `BETx FAN FEST IS BACK for an LA takeover with Doechii, Flo Milli, Latto, Coco Jones, Shaboozey, Marsha Ambrosius, Saucy Santana, and more performing live! Lace up for the skate party hosted by Mustard & 10 Summers, plus panels, fashion, food, BET+ screenings, and the celebrity basketball game with captains Wallo & Gillie! BET Experience presented by Walmart. Fan Fest is FREE! Register now at BETExperience.com`,
+//   buttonLabel: 'Register Now!',
+//   imgStart: true,
+//   img: require('../../images/BETX_LOGO_ONYX.png'),
+//   alt: 'Piggybank',
+//   dark: false,
+//   primary: false,
+//   darkText: true
+// };
 
 

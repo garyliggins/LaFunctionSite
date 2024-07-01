@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import GalleryPage from '../components/GalleryPage';
-import Betsection from '../components/InfoSection/bet';
+// import Betsection from '../components/InfoSection/bet';
 
 
 
@@ -36,7 +36,7 @@ function Home() {
       <GalleryPage/>
       {/* <Services /> */}
       <InfoSection {...homeObjThree} />
-      <Betsection {...homeObjFour} />
+      {/* <Betsection {...homeObjFour} /> */}
       <Footer />
     </>
   );
