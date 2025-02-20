@@ -52,7 +52,7 @@ export const homeObjThree = {
   buttonLabel: 'TICKETS',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: require("../../images/LA-Function-Teaser-Lineup-2024-eventbrite.jpg"),
+  img: require("../../images/lafunction2025.jpeg"),
   alt: 'la function image',
   dark: true,
   primary: true,

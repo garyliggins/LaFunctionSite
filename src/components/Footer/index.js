@@ -70,7 +70,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               LA Function
             </SocialLogo>
-            <WebsiteRights>Liggins Development © 2024 All rights reserved.</WebsiteRights>
+            <WebsiteRights>LA Function © 2025 All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='https://m.facebook.com/Supreme-Team-1303525766409432/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
