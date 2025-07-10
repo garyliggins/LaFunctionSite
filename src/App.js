@@ -21,7 +21,7 @@ function App() {
         }}/>;
 
         <Route path='/lafunctiontix' component={() => {
-          window.location.replace("https://www.eventbrite.com/e/la-function-summer-function-tickets-1234780243949?aff=oddtdtcreator");
+          window.location.replace("https://www.eventbrite.com/e/la-function-bay2la-tickets-1234793272919?aff=oddtdtcreator");
           return null;
         }}/>;
 
