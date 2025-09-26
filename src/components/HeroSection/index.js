@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
-import Video from '../../videos/LA Function 2024 promo IG 2.MOV';
+import Video from '../../videos/lafunction10.31.21v2.mov';
 import {
   HeroContainer,
   HeroBg,
@@ -30,7 +30,7 @@ function HeroSection() {
       <HeroContent>
         {/* <HeroH1><img src="LA_Function_Final corrected.png" height="150" width="150" style={{filter:"invert(100%)"}} alt="la function logo"></img> </HeroH1> */}
         <HeroP>
-        LA FUNCTION 2025 TICKETS ON SALE NOW! <br/> 
+        HALLOWEEN FUNCTION TICKETS ON SALE NOW! <br/> 
         </HeroP>
         <HeroBtnWrapper>
           <Button

@@ -21,7 +21,7 @@ function App() {
         }}/>;
 
         <Route path='/lafunctiontix' component={() => {
-          window.location.replace("https://www.eventbrite.com/e/yg-host-la-function-summer-finale-tickets-1234797926839?aff=oddtdtcreatorr");
+          window.location.replace("https://www.eventbrite.com/e/halloween-function-hosted-by-trina-tickets-1716008811549?aff=oddtdtcreator");
           return null;
         }}/>;
 
