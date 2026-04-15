@@ -11,7 +11,7 @@ import {
   NavLogo,
   NavMenu,
   NavBtn,
-  // NavBtnLink
+  NavBtnLink
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -98,7 +98,7 @@ const Navbar = ({ toggle }) => {
              
             </NavMenu>
             <NavBtn>
-              {/* <NavBtnLink to='/signin'>Sign In</NavBtnLink> */}
+              <NavBtnLink to='/sponsorship'>Sponsorships</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

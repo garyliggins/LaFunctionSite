@@ -6,7 +6,7 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
-  // SidebarRoute,
+  SidebarLinkRoute,
   SideBtnWrap
 } from './SidebarElements';
 
@@ -62,10 +62,11 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Tickets
           </SidebarLink>
-          
+          <SidebarLinkRoute to='/sponsorship' onClick={toggle}>
+            Sponsorships
+          </SidebarLinkRoute>
         </SidebarMenu>
         <SideBtnWrap>
-          {/* <SidebarRoute to='/signin'>Sign In</SidebarRoute> */}
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
