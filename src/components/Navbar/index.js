@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to='/'>
-              <img src="LA_Function_Final corrected.png" alt="LA Function logo" height="80" width="70" style={{filter:"invert(100%)", paddingTop:"5px"}}></img>
+              <img src="LA_Function_Final corrected.png" alt="LA Function logo" height="55" width="48" style={{filter:"invert(100%)"}}></img>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -72,21 +72,19 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                {/* <NavLinks
-                //signup
-                  to='services'
+                <NavLinks
+                  to='faq'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Merch
-                </NavLinks> */}
+                  FAQ
+                </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                //tickets
                   to='signup'
                   smooth={true}
                   duration={500}

@@ -2,108 +2,116 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+  background: ${({ lightBg }) => (lightBg ? '#FFF5E6' : '#0D1B2A')};
+  padding: 80px 0;
 
-  @media screen and (max-width: 1000px) {
-    padding: 75px 0;
+  @media screen and (max-width: 768px) {
+    padding: 60px 0;
   }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 800px;
   width: 100%;
   max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  justify-content: center;
-
-  @media screen and (max-width: 1000px) {
-    height:840px;
-  }
+  margin: 0 auto;
+  padding: 0 32px;
 `;
 
 export const InfoRow = styled.div`
   display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
+  gap: 48px;
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? "'col2 col1'" : "'col1 col2'"};
-  /* Must use '\' css class \'' */
 
-  @media screen and (max-width: 1000px) {
-    grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
-      
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'col1' 'col2';
+    gap: 32px;
   }
 `;
 
 export const Column1 = styled.div`
-  margin-bottom: px;
-  padding: 0 15px;
   grid-area: col1;
+  padding: 0;
 `;
 
 export const Column2 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
   grid-area: col2;
+  padding: 0;
 `;
 
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
- 
+  padding-bottom: 0;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }
 `;
 
 export const TopLine = styled.div`
-  color: #c6cb49; //change back after halloween to lime green
-  font-size: 16px;
-  line-height: 16px;
+  color: #FF6B35;
+  font-size: 14px;
+  line-height: 1;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 16px;
 `;
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 36px;
-  line-height: 1.1;
-  font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+  margin-bottom: 20px;
+  font-size: 38px;
+  line-height: 1.15;
+  font-weight: 800;
+  color: ${({ lightText }) => (lightText ? '#fff' : '#0D1B2A')};
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 26px;
   }
 `;
 
 export const Subtitle = styled.p`
-  max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
-  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+  max-width: 480px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: ${({ darkText }) => (darkText ? '#1A2B3C' : 'rgba(255,255,255,0.85)')};
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    font-size: 15px;
+  }
 `;
 
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
+
+  @media screen and (max-width: 480px) {
+    justify-content: center;
+  }
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 500px;
-  height: 100%;
-
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
 `;
 
 export const Img = styled.img`
   width: 100%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 10px;
-  padding-right: 0;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  display: block;
 `;

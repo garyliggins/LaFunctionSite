@@ -17,48 +17,29 @@ import {
   Img,
 } from "./InfoSection/InfoElements";
 
-const GallerySection = ({
-  lightBg,
-  imgStart,
-  topLine,
-  lightText,
-  headline,
-  description,
-  buttonLabel,
-  img,
-  alt,
-  id,
-  primary,
-  darkText,
-  dark,
-  dark2,
-}) => {
-  console.log(primary);
-
+const GallerySection = () => {
   return (
     <>
-      <InfoContainer lightBg={{lightBg}} id='discover'>
+      <InfoContainer lightBg={true} id='discover'>
         <InfoWrapper>
-        <InfoRow imgStart={imgStart}>
-          <Column1>
-            <TextWrapper>
+          <InfoRow imgStart={true}>
+            <Column1>
+              <TextWrapper>
                 <TopLine>Photo Gallery</TopLine>
-                <Heading darkText={{darkText}}>LA Function Gallery</Heading>
-                <Subtitle darkText={{darkText}}>
-                  Past special guests &
-                  Past special guests & performances include:
-                  Ty Dolla $ign, Hit-Boy, DJ Quik, Blxst, Dom Kennedy, YG, Eric Bellinger, Will.i.am, Jay Rock, Kamaiyah, OT Genasis, DJ Mustard, Buddy, Christina Milian, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Blue Bucks Clan, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt & Daz, & many more!
+                <Heading lightText={false}>LA Function Gallery</Heading>
+                <Subtitle darkText={true}>
+                  Past special guests &amp; performances include:
+                  Ty Dolla $ign, Hit-Boy, DJ Quik, Blxst, Dom Kennedy, YG, Eric Bellinger, Will.i.am, Jay Rock, Kamaiyah, OT Genasis, DJ Mustard, Buddy, Christina Milian, The Game, India Love, SOBxRBE, Trey Songz, P-Lo, Iamsu, Pro Skater Stevie Williams, Big Boy, J Cruz, Jay 305, Blue Bucks Clan, Casey Veggies, Kalan.frfr, D.Smoke, Kurupt &amp; Daz, &amp; many more!
                 </Subtitle>
                 <BtnWrap>
-                  <Button to="lafunctiongallery"
-                  >ENTER GALLERY</Button>
+                  <Button to="lafunctiongallery">ENTER GALLERY</Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>
-            <ImgWrap>
-              <Img src={theGameImage} />
-            </ImgWrap>
+              <ImgWrap>
+                <Img src={theGameImage} alt="The Game at LA Function" />
+              </ImgWrap>
             </Column2>
           </InfoRow>
         </InfoWrapper>

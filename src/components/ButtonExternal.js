@@ -1,15 +1,15 @@
 import styled from 'styled-components';
-// import { Link } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
 export const Button = styled(Link)`
-  
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? '#c6cb49' : '#c6cb49')}; //change this back to lime green color
+  background: #FF6B35;
   white-space: nowrap;
   padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-  color: ${({ dark }) => (dark ? '#010606' : 'black')};
+  color: #fff;
   font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+  font-weight: 700;
+  letter-spacing: 1px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -20,8 +20,14 @@ export const Button = styled(Link)`
   text-decoration: none;
 
   &:hover {
+    background: #FFD166;
+    color: #0D1B2A;
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? '#ffffff' : '#ffffff')};
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    justify-content: center;
   }
 `;
 export default Button

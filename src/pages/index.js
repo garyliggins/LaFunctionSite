@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import GalleryPage from '../components/GalleryPage';
+import FAQ from '../components/FAQ';
 // import Betsection from '../components/InfoSection/bet';
 
 
@@ -34,6 +35,7 @@ function Home() {
       <InfoSection {...homeObjOne} />
       {/* <InfoSection {...homeObjTwo} /> */}
       <GalleryPage/>
+      <FAQ />
       {/* <Services /> */}
       <InfoSection {...homeObjThree} />
       {/* <Betsection {...homeObjFour} /> */}

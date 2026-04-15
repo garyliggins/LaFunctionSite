@@ -41,6 +41,17 @@ const Sidebar = ({ isOpen, toggle }) => {
             Gallery
           </SidebarLink>
           <SidebarLink
+            to='faq'
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
+          >
+            FAQ
+          </SidebarLink>
+          <SidebarLink
             to='signup'
             onClick={toggle}
             smooth={true}
@@ -51,17 +62,6 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Tickets
           </SidebarLink>
-          {/* <SidebarLink
-            to='services'
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}
-          >
-            Merch
-          </SidebarLink> */}
           
         </SidebarMenu>
         <SideBtnWrap>

@@ -1,3 +1,13 @@
+:root {
+  --sunset-orange: #FF6B35;
+  --coral: #FF8C42;
+  --golden: #FFD166;
+  --cream: #FFF5E6;
+  --navy: #0D1B2A;
+  --navy-light: #1A2B3C;
+  --white: #FFFFFF;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
