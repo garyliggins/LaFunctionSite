@@ -18,7 +18,7 @@ function App() {
        
 
         <Route path='/lafunctiongallery' component={() => {
-          window.location.replace("https://heroic-kitten-8f3154.netlify.app");
+          window.location.replace("https://la-function-gallery.netlify.app");
           return null;
         }}/>;
 
