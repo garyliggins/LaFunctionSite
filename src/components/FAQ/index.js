@@ -201,21 +201,25 @@ const ContactLink = styled.a`
 
 const faqItems = [
   {
-    question: '📅 When are the events?',
+    question: (
+      <><span role="img" aria-label="calendar">📅</span> When are the events?</>
+    ),
     content: (
       <>
         <p>LA Function is going off <Highlight>twice</Highlight> this summer — mark your calendars:</p>
         <br />
-        <p>🔥 <Highlight>June 27, 2025</Highlight> — Full DJ lineup announced! This one is locked and loaded.</p>
+        <p><span role="img" aria-label="fire">🔥</span> <Highlight>June 27, 2025</Highlight> — Full DJ lineup announced! This one is locked and loaded.</p>
         <br />
-        <p>☀️ <Highlight>August 15, 2025</Highlight> — Lineup dropping soon. You already know it's going to be massive.</p>
+        <p><span role="img" aria-label="sun">☀️</span> <Highlight>August 15, 2025</Highlight> — Lineup dropping soon. You already know it's going to be massive.</p>
         <br />
         <p>Both events are 21+ and run the same format — music, food, vibes, and an unforgettable LA atmosphere.</p>
       </>
     )
   },
   {
-    question: '🎟️ How much are tickets?',
+    question: (
+      <><span role="img" aria-label="ticket">🎟️</span> How much are tickets?</>
+    ),
     content: (
       <>
         <p>We got options for every squad. Here's the full breakdown:</p>
@@ -245,7 +249,9 @@ const faqItems = [
     )
   },
   {
-    question: '🥂 What are the table packages?',
+    question: (
+      <><span role="img" aria-label="champagne glasses">🥂</span> What are the table packages?</>
+    ),
     content: (
       <>
         <p>Elevate your experience with a table. All packages include a reservation fee plus a bottle service minimum. Prices exclude <Highlight>31.5% tax &amp; gratuity</Highlight>.</p>
@@ -288,17 +294,21 @@ const faqItems = [
     )
   },
   {
-    question: '👗 What\'s the dress code?',
+    question: (
+      <><span role="img" aria-label="dress">👗</span> What's the dress code?</>
+    ),
     content: (
       <>
         <p>Come looking <Highlight>fresh</Highlight>. The vibe is <Highlight>Trendy, Fashion Forward, Daytime Attire</Highlight> — think stylish summer fits, not club wear.</p>
         <br />
-        <p>This is LA. Dress like it. 🌴</p>
+        <p>This is LA. Dress like it. <span role="img" aria-label="palm tree">🌴</span></p>
       </>
     )
   },
   {
-    question: '🚪 What are the door times and entry rules?',
+    question: (
+      <><span role="img" aria-label="door">🚪</span> What are the door times and entry rules?</>
+    ),
     content: (
       <>
         <p><Highlight>Doors open</Highlight> at the event start time.</p>
@@ -310,7 +320,9 @@ const faqItems = [
     )
   },
   {
-    question: '💸 What\'s the refund policy?',
+    question: (
+      <><span role="img" aria-label="money with wings">💸</span> What's the refund policy?</>
+    ),
     content: (
       <>
         <p>All sales are <Highlight>non-refundable</Highlight>, but we've got you covered in most situations:</p>
@@ -326,7 +338,9 @@ const faqItems = [
     )
   },
   {
-    question: '📧 How do I contact you?',
+    question: (
+      <><span role="img" aria-label="email">📧</span> How do I contact you?</>
+    ),
     content: (
       <>
         <p>For table reservations, media inquiries, or general questions, hit us up at:</p>
@@ -335,7 +349,7 @@ const faqItems = [
           <ContactLink href="mailto:info@supremeteamla.com">info@supremeteamla.com</ContactLink>
         </p>
         <br />
-        <p>We'll get back to you. Now go get your tickets. 🎉</p>
+        <p>We'll get back to you. Now go get your tickets. <span role="img" aria-label="party popper">🎉</span></p>
       </>
     )
   }
@@ -368,8 +382,12 @@ const FAQ = () => {
           Two events. One unforgettable summer. Here's everything you need before you pull up.
         </Subtitle>
         <EventBadgeRow>
-          <EventBadge>☀️ June 27, 2025</EventBadge>
-          <EventBadge>🔥 August 15, 2025</EventBadge>
+          <EventBadge>
+            <span role="img" aria-label="sun">☀️</span> June 27, 2025
+          </EventBadge>
+          <EventBadge>
+            <span role="img" aria-label="fire">🔥</span> August 15, 2025
+          </EventBadge>
         </EventBadgeRow>
         {faqItems.map((item, index) => (
           <FAQItem key={index} question={item.question} content={item.content} />
